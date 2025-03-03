@@ -1,0 +1,33 @@
+*body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 300px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.image-container{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 200px 200px 200px 200px;
+    gap: 10px;
+    justify-content: center;
+    
+}
+
+.MainImage{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    width: 1230px;
+    height: 410px;
+    grid-row: 1;
+    grid-row-end: 3;
+}
+
+#hover-shadow:hover{
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.50);
+    opacity: 95%;
+}
